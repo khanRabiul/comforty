@@ -1,0 +1,1643 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comforty</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"
+      integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Top Section Start   -->
+      <section class="bg-top">
+        <div class="container flex justify-between items-center py-4">
+          <!-- Left Side Start -->
+          <div
+            class="text-sm text-white capitalize flex items-center gap-2 cursor-pointer font-thin opacity-75 hover:opacity-100 hover:transition"
+          >
+            <i class="fa-solid fa-check"></i>
+            <p>Free Shipping On All orders over $50</p>
+          </div>
+          <!-- Left Side End -->
+
+          <!-- Right Side Start -->
+          <div class="flex items-center gap-6 text-white cursor-pointer">
+            <div class="opacity-75 hover:opacity-100 hover:transition">
+              <select
+                name="language"
+                id="language"
+                class="bg-transparent border-none"
+              >
+                <option value="eng" class="bg-top">Eng</option>
+                <option value="bng" class="bg-top">Ban</option>
+              </select>
+            </div>
+            <div class="opacity-75 hover:opacity-100 hover:transition">
+              <a href="#">Faqs</a>
+            </div>
+            <div
+              class="flex items-center gap-1 capitalize opacity-75 hover:opacity-100 hover:transition"
+            >
+              <img src="./images/info.svg" alt="help" />
+              <span>need help</span>
+            </div>
+          </div>
+          <!-- Right Side End-->
+        </div>
+      </section>
+      <!-- Top Section End  -->
+
+      <!-- Top Search Section Start  -->
+      <section class="bg-bgSecond">
+        <div
+          class="container px-6 md:px-0 flex flex-col gap-2 pt-6 lg:flex-row lg:justify-between lg:items-center lg:gap-6 py-6"
+        >
+          <!-- Logo Start  -->
+          <div class="flex items-center justify-between lg:flex-none lg:w-auto">
+            <a class="w-full h-11 mx-auto lg:mr-6 cursor-pointer">
+              <img src="./images/logo.png" alt="Comforty logo" />
+            </a>
+
+            <!-- User Action button mobile view Start -->
+            <div class="flex items-center shrink-1 gap-2 lg:hidden">
+              <div>
+                <a
+                  href="#"
+                  class="group rounded-lg flex items-center justify-center w-24 h-11 bg-white cursor-pointer hover:text-hoverMain transition"
+                >
+                  <img src="./images/cart.svg" alt="cart" class="pl-3" />
+                  <p class="mx-1 text-sm font-medium">Cart</p>
+                  <p
+                    class="flex items-center justify-center size-5 rounded-full bg-[#007580] text-white"
+                  >
+                    2
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="#"
+                  class="rounded-lg flex items-center justify-center p-3 bg-white cursor-pointer hover:text-hoverMain transition"
+                >
+                  <i class="fa-regular fa-user"></i>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="#"
+                  class="rounded-lg flex items-center justify-center p-3 bg-white cursor-pointer hover:text-hoverMain transition"
+                >
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+            </div>
+            <!-- User Action button mobile view End -->
+          </div>
+          <!-- Logo  End  -->
+
+          <!-- Search Start  -->
+          <div
+            class="lg:grow cursor-pointer relative mb-4 lg:mb-0 lg:flex lg:justify-center lg:items-center"
+          >
+            <div class="relative w-full lg:w-96 lg:mx-auto">
+              <input
+                type="text"
+                placeholder="Search here..."
+                class="w-full placeholder:gray-200 text-sm font-normal py-3 pl-4 border-none rounded-md focus:outline-none focus:ring-1 focus:ring-hoverMain text-gray-500"
+              />
+              <button
+                class="absolute top-1/2 transform -translate-y-1/2 right-4 text-sm"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+          <!-- Search End -->
+
+          <!-- User Action Btns Start  -->
+          <div
+            class="hidden lg:flex lg:items-center lg:justify-end gap-1 w-auto lg:flex-none lg:ml-6"
+          >
+            <div>
+              <a
+                class="group rounded-lg flex items-center justify-center px-4 h-11 bg-white cursor-pointer hover:text-hoverMain transition"
+              >
+                <img src="./images/cart.svg" alt="cart" class="size-3" />
+                <p class="mx-1 text-xs font-medium">Cart</p>
+                <span
+                  class="flex items-center justify-center size-4 rounded-full bg-[#007580] text-white"
+                  >2</span
+                >
+              </a>
+            </div>
+            <div>
+              <a
+                href="./signin.html"
+                class="rounded-lg flex items-center justify-center p-3 bg-white cursor-pointer hover:text-hoverMain transition" target="_blank"
+              >
+                <i class="fa-regular fa-user"></i>
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                class="rounded-lg flex items-center justify-center p-3 bg-white cursor-pointer hover:text-hoverMain transition"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </div>
+          </div>
+          <!-- User Action Btns End -->
+        </div>
+      </section>
+      <!-- Top Search Section End  -->
+
+      <!-- Menu Section Start  -->
+      <section>
+        <nav class="font-inter text-sm font-medium py-5">
+          <!-- Desktop/Larger Screen Menu Start  -->
+          <div class="container flex justify-between items-center">
+            <!-- Catagories and Menu Start -->
+            <div class="flex items-center gap-8">
+              <div class="px-6 py-4 border rounded-md">
+                <a href="#"
+                  >&#9776;
+                  <span class="capitalize ml-4">All Categories</span>
+                </a>
+              </div>
+              <div>
+                <ul class="flex items-center gap-8 text-gray-500 capitalize">
+                  <li class="text-hoverMain"><a href="#home">home</a></li>
+                  <li class="hover:text-hoverMain transition">
+                    <a href="#shop">shop</a>
+                  </li>
+                  <li class="hover:text-hoverMain transition">
+                    <a href="#product">product</a>
+                  </li>
+                  <li class="hover:text-hoverMain transition">
+                    <a href="#pages">pages</a>
+                  </li>
+                  <li class="hover:text-hoverMain transition">
+                    <a href="#about">about</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Catagories and Menu End -->
+
+            <!-- Contact  -->
+            <div class="flex items-center gap-2">
+              <p class="font-normal text-gray-500 capitalize">contact:</p>
+              <a href="tel:(808) 555-0111" class="text-black">(808) 555-0111</a>
+            </div>
+          </div>
+          <!-- Desktop/Larger Screen Menu End  -->
+        </nav>
+      </section>
+      <!-- Menu Section End  -->
+
+      <!-- Hero section Start  -->
+
+      <!-- Hero Image Start  -->
+      <section class="px-8">
+        <div class="bg-bgSecond rounded-b-xl">
+          <div
+            class="container pt-20 pb-11 flex flex-col gap-12 md:flex-row-reverse md:items-center md:justify-between"
+          >
+            <!-- Hero image start  -->
+            <div class="md:w-1/2">
+              <div class="relative md:pt-16 pl-16">
+                <img src="./images/hero_product.png" alt="hero product" />
+                <div
+                  class="absolute left-2/3 top-20 h-32 w-36 bg-white rounded-full flex flex-col items-center justify-center z-30"
+                >
+                  <h3 class="text-4xl font-bold text-[#F05C52]">54%</h3>
+                  <p class="font-medium tracking-wide text-[#272343]">
+                    Discount
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Hero image end  -->
+
+            <!-- Hero Content Start  -->
+            <div class="text-left pl-16 mt-16 md:w-1/2">
+              <h5 class="text-[#272343] text-sm tracking-wider mb-4 uppercase">
+                welcome to chairy
+              </h5>
+              <h2
+                class="text-[#272343] text-6xl font-bold drop-shadow-2xl mb-6 capitalize"
+              >
+                Best Furniture Collection for your interior.
+              </h2>
+              <div
+                class="text-white font-semibold capitalize px-6 py-3.5 bg-hoverMain inline-block rounded-lg cursor-pointer"
+              >
+                <a href="#"
+                  >shop now <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+            <!-- Hero Content End -->
+          </div>
+        </div>
+
+        <div class="container bg-white mt-8 lg:-translate-y-1/2">
+          <!-- Servies Container Start  -->
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 overflow-hidden items-center justify-around shadow-xl py-12 rounded-md gap-8"
+          >
+            <!-- Single Service Start  -->
+            <div class="flex gap-4 items-center justify-center h-14">
+              <div>
+                <img src="./images/box.png" alt="" />
+              </div>
+              <div>
+                <h5 class="text-lg font-medium capitalize text-[#272343]">
+                  Discount
+                </h5>
+                <p class="text-base font-normal text-gray-500">
+                  Every week new sales
+                </p>
+              </div>
+            </div>
+            <!-- Single Service End  -->
+
+            <!-- Single Service Start  -->
+            <div class="flex gap-4 items-center justify-center h-14">
+              <div>
+                <img src="./images/truck.png" alt="" />
+              </div>
+              <div>
+                <h5 class="text-lg font-medium capitalize text-[#272343]">
+                  free delivery
+                </h5>
+                <p class="text-base font-normal text-gray-500">
+                  100% Free for all orders
+                </p>
+              </div>
+            </div>
+            <!-- Single Service End  -->
+
+            <!-- Single Service Start  -->
+            <div class="flex gap-4 items-center justify-center h-14">
+              <div>
+                <img src="./images/clock .png" alt="" />
+              </div>
+              <div>
+                <h5 class="text-lg font-medium capitalize text-[#272343]">
+                  Great support 24-7
+                </h5>
+                <p class="text-base font-normal text-gray-500">
+                  We care your experiences
+                </p>
+              </div>
+            </div>
+            <!-- Single Service End  -->
+
+            <!-- Single Service Start  -->
+            <div class="flex gap-4 items-center justify-center h-14">
+              <div>
+                <img src="./images/shield.png" alt="" />
+              </div>
+              <div>
+                <h5 class="text-lg font-medium capitalize text-[#272343]">
+                  secure payment
+                </h5>
+                <p class="text-base font-normal text-gray-500">
+                  100% Secure Payment Method
+                </p>
+              </div>
+            </div>
+            <!-- Single Service End  -->
+          </div>
+          <!-- Servies Container End -->
+        </div>
+      </section>
+    </header>
+    <!-- Hero Image End  -->
+    <!-- Hero section End  -->
+
+    <!-- Companies Section Start  -->
+    <section>
+      <div
+        class="container px-6 lg:px-0 grid grid-cols-2 items-center justify-between md:grid-cols-3 lg:grid-cols-7 gap-4"
+      >
+        <div>
+          <img src="./images/com_zipier.png" alt="" />
+        </div>
+        <div>
+          <img src="./images/com_pipedrive.png" alt="" />
+        </div>
+
+        <div>
+          <img src="./images/com_cib_bank.png" alt="" />
+        </div>
+        <div>
+          <img src="./images/com_seven_dot.png" alt="" />
+        </div>
+        <div>
+          <img src="./images/com_burnt_toast.png" alt="" />
+        </div>
+
+        <div>
+          <img src="./images/com_pandeDoc.png" alt="" />
+        </div>
+        <div>
+          <img src="./images/com_moz.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Companies Section End  -->
+
+    <!-- Featured Products Section Start  -->
+    <section id="shop" class="px-6">
+      <div class="container mb-20">
+        <!-- Featured Products Heading Start  -->
+        <div class="mb-11 flex items-center justify-between">
+          <div class="text-2xl font-semibold text-[#272343]">
+            <h3 class="capitalize">Featurd products</h3>
+          </div>
+          <div class="flex items-center gap-8">
+            <div
+              class="size-11 bg-gray-200 rounded-full flex items-center justify-center hover:bg-hoverMain hover:text-white transition-all ease-in-out duration-300"
+            >
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div
+              class="size-11 bg-gray-200 rounded-full flex items-center justify-center hover:bg-hoverMain hover:text-white transition-all ease-in-out duration-300"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Featured Products Heading End  -->
+
+        <!-- Featured products container start -->
+        <div
+          class="grid grid-cols-1 w-full md:grid-cols-2 justify-between items-center gap-6 lg:grid-cols-4"
+        >
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/product_1.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#01AD5A] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                New
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image start  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/product_2.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#F5813F] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                Sales
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image start  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/product_3.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#F5813F] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                Sales
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image start  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/product_4.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#F5813F] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                Sales
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image start  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+          <!-- Featured products container end -->
+        </div>
+      </div>
+    </section>
+    <!-- Featured Products Section End  -->
+
+    <!-- Top Catagories Section Start  -->
+    <section class="px-6">
+      <div class="container mb-20">
+        <!-- Top Catagories Heading Start  -->
+        <div class="mb-11 flex items-center justify-between">
+          <div class="text-2xl font-semibold text-[#272343]">
+            <h3 class="capitalize">top Catagories</h3>
+          </div>
+          <div class="flex items-center gap-8">
+            <div
+              class="size-11 bg-gray-200 rounded-full flex items-center justify-center hover:bg-hoverMain hover:text-white transition-all ease-in-out duration-300"
+            >
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div
+              class="size-11 bg-gray-200 rounded-full flex items-center justify-center hover:bg-hoverMain hover:text-white transition-all ease-in-out duration-300"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Top Catagories Heading End  -->
+
+        <!-- Top Catagories container start -->
+        <div
+          class="grid grid-cols-1 w-full md:grid-cols-2 justify-between items-center gap-6 lg:grid-cols-3"
+        >
+          <!-- Single product start -->
+          <div class="group">
+            <div class="relative w-full h-full">
+              <img
+                src="./images/cat_product_2.png"
+                alt="chair"
+                class="w-full h-auto overflow-hidden"
+              />
+              <!-- Product content start  -->
+              <div
+                class="opacity-0 transition-opacity ease-in-out duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="absolute bottom-0 left-0 right-0 text-left bg-[#3f403e] opacity-80 p-5 rounded-b-xl"
+                >
+                  <h4
+                    class="text-white text-sm font-bold capitalize object-cover"
+                  >
+                    Wing cahir
+                  </h4>
+                  <p class="text-white">3,584 products</p>
+                </div>
+              </div>
+              <!-- Product content end  -->
+            </div>
+          </div>
+          <!-- Single product end -->
+          <!-- Single product start -->
+          <div class="group">
+            <div class="relative">
+              <img
+                src="./images/cat_product_3.png"
+                alt="chair"
+                class="w-full h-auto overflow-hidden"
+              />
+              <!-- Product content start  -->
+              <div
+                class="opacity-0 transition-opacity ease-in-out duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="absolute bottom-0 left-0 right-0 text-left bg-[#3f403e] opacity-80 p-5 rounded-b-xl"
+                >
+                  <h4
+                    class="text-white text-sm font-bold capitalize object-cover"
+                  >
+                    Wing cahir
+                  </h4>
+                  <p class="text-white">3,584 products</p>
+                </div>
+              </div>
+              <!-- Product content end  -->
+            </div>
+          </div>
+          <!-- Single product end -->
+          <!-- Single product start -->
+          <div class="group">
+            <div class="relative">
+              <img
+                src="./images/cat_product_4.png"
+                alt="chair"
+                class="w-full h-auto overflow-hidden"
+              />
+              <!-- Product content start  -->
+              <div
+                class="opacity-0 transition-opacity ease-in-out duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="absolute bottom-0 left-0 right-0 text-left bg-[#3f403e] opacity-80 p-5 rounded-b-xl"
+                >
+                  <h4
+                    class="text-white text-sm font-bold capitalize object-cover"
+                  >
+                    desk cahir
+                  </h4>
+                  <p class="text-white">154 products</p>
+                </div>
+              </div>
+              <!-- Product content end  -->
+            </div>
+          </div>
+          <!-- Single product end -->
+
+          <!-- Featured products container end -->
+        </div>
+      </div>
+    </section>
+    <!-- Top Catagories Section End  -->
+
+    <!-- Our products section start  -->
+    <section id="product" class="px-6">
+      <div class="container mb-20">
+        <!-- Our Products Heading start  -->
+        <div class="text-center mb-12">
+          <div>
+            <h2 class="text-2xl text-[#272343] font-bold capitalize mb-4">
+              our products
+            </h2>
+          </div>
+          <div>
+            <ul class="space-x-6">
+              <li
+                class="inline-block text-[#272343] text-base font-medium p-2 tracking-wider uppercase border-b-2 border-[#038053]"
+              >
+                <a href="#">all</a>
+              </li>
+              <li
+                class="inline-block text-base font-medium text-[#9A9CAA] p-2 tracking-wider uppercase"
+              >
+                <a href="#">newset</a>
+              </li>
+              <li
+                class="inline-block text-[#272343] text-base font-medium p-2 tracking-wider uppercase"
+              >
+                <a href="#">trending</a>
+              </li>
+              <li
+                class="inline-block text-base font-medium text-[#9A9CAA] p-2 tracking-wider uppercase"
+              >
+                <a href="#">best sellers</a>
+              </li>
+              <li
+                class="inline-block text-base font-medium text-[#9A9CAA] p-2 tracking-wider uppercase"
+              >
+                <a href="#">featured</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Our Products Heading End  -->
+
+        <!-- Our Products stat  -->
+        <div
+          class="grid grid-cols-1 w-full md:grid-cols-2 justify-between items-center gap-6 lg:grid-cols-4"
+        >
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/product_1.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#01AD5A] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                New
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image start  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/product_2.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#F5813F] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                Sales
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image start  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/product_3.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#F5813F] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                Sales
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image start  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/product_4.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#F5813F] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                Sales
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image start  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/product_5.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#F5813F] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                Sales
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image end  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/product_6.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#F5813F] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                Sales
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image end  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/cat_product_2.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#F5813F] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                Sales
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image end  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/cat_product_3.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#F5813F] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                Sales
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image end  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+
+          <!-- Our products container end -->
+        </div>
+        <!-- Our Products end  -->
+      </div>
+    </section>
+    <!-- Our products section End  -->
+
+    <!-- Clients Comments Section Start  -->
+    <section id="about" class="px-6 bg-bgSecond">
+      <div class="container mb-20 py-20">
+        <!-- Clients headings start  -->
+        <div class="mb-11 flex items-center justify-between">
+          <div class="text-2xl font-semibold text-[#272343]">
+            <h3 class="capitalize">what client says about us</h3>
+          </div>
+          <div class="flex items-center gap-8">
+            <div
+              class="size-11 bg-gray-200 rounded-full flex items-center justify-center hover:bg-hoverMain hover:text-white transition-all ease-in-out duration-300"
+            >
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div
+              class="size-11 bg-gray-200 rounded-full flex items-center justify-center hover:bg-hoverMain hover:text-white transition-all ease-in-out duration-300"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Clients Heading End  -->
+
+        <div class="grid gap-8 grid-cols-1 w-full md:grid-cols-2">
+          <article class="p-10 shadow-md rounded-xl bg-white">
+            <div class="pl-6 border-l-2 border-[#029FAE] mb-14">
+              <p class="text-xl text-[#636270] font-normal capitalize">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vivamus sit amet mi nec massa tincidunt blandit et eu sem.
+                Maecenas laoreet ultrices diam dignissim posuere. Aenean
+                ultrices dui at ipsum sagittis, pharetra lacinia dui faucibus.
+                In ac bibendum ex. Aenean dolor massa, euismod sit amet suscipit
+                et“
+              </p>
+            </div>
+            <!-- Clients Start  -->
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <div class="size-10">
+                  <img
+                    src="./images/avater_1.png"
+                    alt="kristian watson"
+                    class="w-full"
+                  />
+                </div>
+                <div>
+                  <h2 class="text-xl font-medium text-[#272343] capitalize">
+                    Esther howard
+                  </h2>
+                  <p class="text-base font-normal text-[#9A9CAA] capitalize">
+                    fasion designer
+                  </p>
+                </div>
+              </div>
+              <div>
+                <i class="fa-solid fa-quote-right text-7xl text-gray-300"></i>
+              </div>
+            </div>
+            <!-- Clients end  -->
+          </article>
+
+          <article class="p-10 shadow-md rounded-xl bg-white">
+            <div class="pl-6 border-l-2 border-[#029FAE] mb-14">
+              <p class="text-xl text-[#636270] font-normal capitalize">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vivamus sit amet mi nec massa tincidunt blandit et eu sem.
+                Maecenas laoreet ultrices diam dignissim posuere. Aenean
+                ultrices dui at ipsum sagittis, pharetra lacinia dui faucibus.
+                In ac bibendum ex. Aenean dolor massa, euismod sit amet suscipit
+                et“
+              </p>
+            </div>
+            <!-- Clients Start  -->
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <div class="size-10">
+                  <img
+                    src="./images/avater_2.png"
+                    alt="kristian watson"
+                    class="w-full"
+                  />
+                </div>
+                <div>
+                  <h2 class="text-xl font-medium text-[#272343] capitalize">
+                    kristian watson
+                  </h2>
+                  <p class="text-base font-normal text-[#9A9CAA] capitalize">
+                    fasion designer
+                  </p>
+                </div>
+              </div>
+              <div>
+                <i class="fa-solid fa-quote-right text-7xl text-gray-300"></i>
+              </div>
+            </div>
+            <!-- Clients end  -->
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- Clients Comments Section End  -->
+
+    <!-- Recently Aded Products Section Start  -->
+    <section class="px-6 border-b-2 divide-gray-200 mb-20">
+      <div class="container mb-20">
+        <!-- Recently AdedProducts Heading Start  -->
+        <div class="mb-11 flex items-center justify-between">
+          <div class="text-2xl font-semibold text-[#272343]">
+            <h3 class="capitalize">Recently Added</h3>
+          </div>
+          <div class="flex items-center gap-8">
+            <div
+              class="size-11 bg-gray-200 rounded-full flex items-center justify-center hover:bg-hoverMain hover:text-white transition-all ease-in-out duration-300"
+            >
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div
+              class="size-11 bg-gray-200 rounded-full flex items-center justify-center hover:bg-hoverMain hover:text-white transition-all ease-in-out duration-300"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Recently Aded Heading End  -->
+
+        <!-- Recently Aded container start -->
+        <div
+          class="grid grid-cols-1 w-full md:grid-cols-2 justify-between items-center gap-6 lg:grid-cols-4"
+        >
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/product_1.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#01AD5A] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                New
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image start  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/product_2.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#F5813F] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                Sales
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image start  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/product_3.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#F5813F] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                Sales
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image start  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+          <!-- Single product start -->
+          <div class="group">
+            <!-- Product image start  -->
+            <div class="relative mb-3.5">
+              <img
+                src="./images/product_4.png"
+                alt="chair"
+                style="width: 100%; height: auto"
+              />
+
+              <div
+                class="text-xs bg-[#F5813F] text-white px-4 py-3 rounded-md absolute top-4 left-4 cursor-pointer"
+              >
+                Sales
+              </div>
+              <div
+                class="w-11 h-11 bg-white text-gray-400 text-xl rounded-md flex items-center justify-center absolute top-4 right-4 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <!-- Product image start  -->
+
+            <!-- Product content start  -->
+            <div class="flex items-center justify-between">
+              <div>
+                <h5
+                  class="text-base text-[#272343] font-bold capitalize mb-2.5 group-hover:text-hoverMain transition ease-in-out duration-300"
+                >
+                  Library stoot chair
+                </h5>
+                <p class="text-lg font-bold capitalize text-[#272343]">$120</p>
+              </div>
+              <div
+                class="w-11 h-11 bg-gray-200 rounded-md flex items-center justify-center group-hover:bg-hoverMain transition ease-in-out duration-300"
+              >
+                <i
+                  class="fa-solid fa-cart-shopping group-hover:text-white transition ease-in-out duration-300"
+                ></i>
+              </div>
+            </div>
+            <!-- Product content end  -->
+          </div>
+          <!-- Single product end -->
+          <!-- Recently Aded container end -->
+        </div>
+      </div>
+    </section>
+    <!-- Recently Aded Products Section End  -->
+
+    <!-- Footer Section start  -->
+    <footer id="pages">
+      <section class="px-6 bg-white border-b-2 border-gray-200 py-20">
+        <div class="container">
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between lg:gap-20 space-y-8"
+          >
+            <!-- Company information start  -->
+            <div class="w-full">
+              <div>
+                <img src="./images/logo.png" alt="comforty" class="mb-6" />
+                <p class="text-base font-normal text-gray-500 mb-9">
+                  Vivamus tristique odio sit amet velit semper, eu posuere
+                  turpis interdum. Cras egestas purus
+                </p>
+              </div>
+              <div class="flex items-center justify-start gap-4">
+                <div
+                  class="group size-10 rounded-full hover:border-solid hover:border hover:border-hoverMain flex items-center justify-center transition-all duration-300"
+                >
+                  <i
+                    class="fa-brands fa-facebook text-[#636270] group-hover:text-hoverMain group-hover:transition group-hover:duration-300"
+                  ></i>
+                </div>
+                <div
+                  class="group size-10 rounded-full hover:border-solid hover:border hover:border-hoverMain flex items-center justify-center transition-all duration-300"
+                >
+                  <i
+                    class="fa-brands fa-twitter text-[#636270] group-hover:text-hoverMain group-hover:transition group-hover:duration-300"
+                  ></i>
+                </div>
+                <div
+                  class="group size-10 rounded-full hover:border-solid hover:border hover:border-hoverMain flex items-center justify-center transition-all duration-300"
+                >
+                  <i
+                    class="fa-brands fa-instagram text-[#636270] group-hover:text-hoverMain group-hover:transition group-hover:duration-300"
+                  ></i>
+                </div>
+                <div
+                  class="group size-10 rounded-full hover:border-solid hover:border hover:border-hoverMain flex items-center justify-center transition-all duration-300"
+                >
+                  <i
+                    class="fa-brands fa-pinterest text-[#636270] group-hover:text-hoverMain group-hover:transition group-hover:duration-300"
+                  ></i>
+                </div>
+                <div
+                  class="group size-10 rounded-full hover:border-solid hover:border hover:border-hoverMain flex items-center justify-center transition-all duration-300"
+                >
+                  <i
+                    class="fa-brands fa-youtube text-[#636270] group-hover:text-hoverMain group-hover:transition group-hover:duration-300"
+                  ></i>
+                </div>
+              </div>
+            </div>
+            <!-- Company information end  -->
+
+            <!-- Links Start  -->
+            <div class="w-full">
+              <div class="flex justify-between space-x-40">
+                <div>
+                  <h4 class="text-[#9A9CAA] text-sm font-medium uppercase mb-5">
+                    category
+                  </h4>
+
+                  <ul class="flex flex-col">
+                    <li
+                      class="inline-block text-[#272343] text-base font-normal capitalize py-3"
+                    >
+                      <a
+                        href="#"
+                        class="hover:text-hoverMain hover:border-b hover:border-b-hoverMain transition-all duration-300"
+                        >sofa</a
+                      >
+                    </li>
+                    <li
+                      class="inline-block text-[#272343] text-base font-normal capitalize py-3"
+                    >
+                      <a
+                        href="#"
+                        class="hover:text-hoverMain hover:border-b hover:border-b-hoverMain transition-all duration-300"
+                        >armchair</a
+                      >
+                    </li>
+                    <li
+                      class="inline-block text-[#272343] text-base font-normal capitalize py-3"
+                    >
+                      <a
+                        href="#"
+                        class="hover:text-hoverMain hover:border-b hover:border-b-hoverMain transition-all duration-300"
+                        >wing chair</a
+                      >
+                    </li>
+                    <li
+                      class="inline-block text-[#272343] text-base font-normal capitalize py-3"
+                    >
+                      <a
+                        href="#"
+                        class="hover:text-hoverMain hover:border-b hover:border-b-hoverMain transition-all duration-300"
+                        >desk chari</a
+                      >
+                    </li>
+                    <li
+                      class="inline-block text-[#272343] text-base font-normal capitalize py-3"
+                    >
+                      <a
+                        href="#"
+                        class="hover:text-hoverMain hover:border-b hover:border-b-hoverMain transition-all duration-300"
+                        >wooden chari</a
+                      >
+                    </li>
+                    <li
+                      class="inline-block text-[#272343] text-base font-normal capitalize py-3"
+                    >
+                      <a
+                        href="#"
+                        class="hover:text-hoverMain hover:border-b hover:border-b-hoverMain transition-all duration-300"
+                        >park bench</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <div>
+                    <h4
+                      class="text-[#9A9CAA] text-sm font-medium uppercase mb-5"
+                    >
+                      support
+                    </h4>
+
+                    <ul class="flex flex-col">
+                      <li
+                        class="inline-block text-[#272343] text-base font-normal capitalize py-3"
+                      >
+                        <a
+                          href="#"
+                          class="hover:text-hoverMain hover:border-b hover:border-b-hoverMain transition-all duration-300"
+                          >help & support</a
+                        >
+                      </li>
+                      <li
+                        class="inline-block text-[#272343] text-base font-normal capitalize py-3"
+                      >
+                        <a
+                          href="#"
+                          class="hover:text-hoverMain hover:border-b hover:border-b-hoverMain transition-all duration-300"
+                          >tearms & conditions</a
+                        >
+                      </li>
+                      <li
+                        class="inline-block text-[#272343] text-base font-normal capitalize py-3"
+                      >
+                        <a
+                          href="#"
+                          class="hover:text-hoverMain hover:border-b hover:border-b-hoverMain transition-all duration-300"
+                          >privacy policy</a
+                        >
+                      </li>
+                      <li
+                        class="inline-block text-[#272343] text-base font-normal capitalize py-3"
+                      >
+                        <a
+                          href="#"
+                          class="hover:text-hoverMain hover:border-b hover:border-b-hoverMain transition-all duration-300"
+                          >help</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Links end  -->
+
+            <!-- Newsletter start  -->
+            <div>
+              <div class="col-span-2 lg:col-span-1 sm:mt-8">
+                <div>
+                  <h4 class="text-[#9A9CAA] text-sm font-medium uppercase mb-5">
+                    newsletter
+                  </h4>
+                  <div class="mb-4 flex items-center w-full">
+                    <input
+                      type="text"
+                      placeholder="Your email"
+                      class="py-3.5 pl-5 placeholder-gray-400 rounded-lg focus:border-transparent focus:outline-none focus:ring-2 focus:ring-hoverMain mr-3 text-gray-500 w-2/3"
+                    />
+                    <button
+                      type="submit"
+                      class="text-white font-bold text-base py-3.5 px-6 bg-hoverMain rounded-lg capitalize w-1/3"
+                    >
+                      subscribe
+                    </button>
+                  </div>
+                  <div>
+                    <p class="text-base font-normal text-gray-500 mb-9">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nullam tincidunt erat enim.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Newsletter end  -->
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div
+          class="container px-6 md:px-0 flex items-center justify-between py-6"
+        >
+          <div class="text-sm text-[#9A9CAA] capitalize">
+            @ 2021 - blogy - designed & develop by
+            <span class="text-black">zakirsoft</span>
+          </div>
+          <div>
+            <img
+              src="./images/payment.png"
+              alt="payment_method"
+              class="w-72 h-8 opacity-20"
+            />
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- Footer Section end  -->
+  </body>
+</html>
